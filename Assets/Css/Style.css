@@ -1,0 +1,55 @@
+/* Estilos globais */
+body {
+    font-family: 'Arial', sans-serif;
+    color: white;
+    background: url('../Imagens/fundo\ fundo.webp') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 60px;
+}
+
+header .logo-text {
+    font-size: 1.5rem;
+    color: white;
+}
+
+header .logo-text .text-green {
+    color: #00ff00; /* Verde */
+}
+
+nav a {
+    color: #00ff00; /* Verde */
+}
+
+/* Estilos para a caixa de solicitação de CPF */
+.request-cpf-box {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 400px;
+    padding: 20px;
+}
+
+.request-cpf-box h3 {
+    color: #333;
+}
+
+.request-cpf-box .form-control {
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+    padding: 0.75rem;
+}
+
+.request-cpf-box .btn {
+    background-color: #00ff00; /* Verde */
+    border: none;
+    color: black;
+}
+
+.request-cpf-box .btn:hover {
+    background-color: #008000; /* Tom mais escuro de verde */
+}

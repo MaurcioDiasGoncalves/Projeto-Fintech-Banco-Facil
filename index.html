@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banco Fácil</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./Assets/Css/Style.css">
+    <style>
+        .rounded-logo {
+            border-radius: 50%;
+            max-width: 60px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="d-flex justify-content-between align-items-center p-2 bg-dark text-white">
+        <div class="d-flex align-items-center">
+            <img src="./Assets/Imagens/logo oficial.webp" alt="Banco Fácil Logo" class="img-fluid rounded-logo">
+            <h2 class="ml-2 mb-0 logo-text">Banco <span class="text-green">Fácil</span></h2>
+        </div>
+        <nav class="mr-3">
+            <a href="#inicio" class="text-white mr-3">Página Inicial</a>
+            <a href="#para-voce" class="text-white mr-3">Para Você</a>
+            <a href="#para-seu-negocio" class="text-white mr-3">Para Seu Negócio</a>
+            <a href="#o-banco-facil" class="text-white mr-3">O Banco Fácil</a>
+            <a href="#perguntas" class="text-white mr-3">Perguntas</a>
+            <a href="#login" class="text-white">Login</a>
+        </nav>
+    </header>
+
+    <section class="hero d-flex align-items-center" style="background-image: url('./Assets/Imagens/background-verde-1920x1080.png'); height: 100vh;">
+        <div class="container text-center">
+            <div class="request-cpf-box bg-white rounded shadow">
+                <h3 class="mb-4">Peça sua conta e cartão de crédito do Banco Fácil</h3>
+                <form>
+                    <div class="form-group">
+                        <label for="cpf-input" class="sr-only">Digite seu CPF</label>
+                        <input type="text" class="form-control" id="cpf-input" placeholder="Digite seu CPF">
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Continuar</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="services py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Nossos Serviços</h2>
+            <div id="servicesCarousel" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="service-box p-4 mb-4 text-center rounded shadow-sm">
+                                    <div class="icon mb-3">
+                                        <img src="./Assets/Imagens/emprestimos.webp" alt="Empréstimo" class="img-fluid rounded-logo">
+                                    </div>
+                                    <h3>Empréstimo</h3>
+                                    <p>Transparentes, seguros e do seu jeito. Opções de empréstimos que deixam você no controle do início ao fim.</p>
+                                    <a href="#" class="text-primary">Saiba mais →</a>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="service-box p-4 mb-4 text-center rounded shadow-sm">
+                                    <div class="icon mb-3">
+                                        <img src="./Assets/Imagens/cartao de credito.webp" alt="Cartão de Crédito" class="img-fluid rounded-logo">
+                                    </div>
+                                    <h3>Cartão de Crédito</h3>
+                                    <p>Cartão de crédito com limites personalizados e diversas vantagens para você.</p>
+                                    <a href="#" class="text-primary">Saiba mais →</a>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="service-box p-4 mb-4 text-center rounded shadow-sm">
+                                    <div class="icon mb-3">
+                                        <img src="./Assets/Imagens/investimentos.webp" alt="Investimentos" class="img-fluid rounded-logo">
+                                    </div>
+                                    <h3>Investimentos</h3>
+                                    <p>Investimentos a partir de R$ 1 e opções para todos os perfis. Uma experiência fácil, segura e transparente.</p>
+                                    <a href="#" class="text-primary">Saiba mais →</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="service-box p-4 mb-4 text-center rounded shadow-sm">
+                                    <div class="icon mb-3">
+                                        <img src="./Assets/Imagens/boleto parcelado.PNG" alt="Boleto Parcelado" class="img-fluid rounded-logo">
+                                    </div>
+                                    <h3>Boleto Parcelado</h3>
+                                    <p>Pague seus boletos em até 12x com condições especiais. Facilidade e controle para o seu dia a dia.</p>
+                                    <a href="#" class="text-primary">Saiba mais →</a>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="service-box p-4 mb-4 text-center rounded shadow-sm">
+                                    <div class="icon mb-3">
+                                        <img src="./Assets/Imagens/cartao virtual.PNG" alt="Cartão Virtual" class="img-fluid rounded-logo">
+                                    </div>
+                                    <h3>Cartão Virtual</h3>
+                                    <p>Use o cartão virtual para compras online com mais segurança. Controle total na palma da sua mão.</p>
+                                    <a href="#" class="text-primary">Saiba mais →</a>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="service-box p-4 mb-4 text-center rounded shadow-sm">
+                                    <div class="icon mb-3">
+                                        <img src="./Assets/Imagens/caixinha.PNG" alt="Caixinha" class="img-fluid rounded-logo">
+                                    </div>
+                                    <h3>Caixinha</h3>
+                                    <p>Junte seu dinheiro em uma caixinha que rende mais que a poupança. Planeje e alcance seus objetivos.</p>
+                                    <a href="#" class="text-primary">Saiba mais →</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#servicesCarousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Anterior</span>
+                </a>
+                <a class="carousel-control-next" href="#servicesCarousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Próximo</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="./Assets/Imagens/logo oficial.webp" alt="Banco Fácil Logo" class="img-fluid rounded-logo">
+                </div>
+                <div class="col-md-8 d-flex justify-content-end">
+                    <nav>
+                        <ul class="list-unstyled d-flex">
+                            <li class="mr-3"><a href="#inicio" class="text-white">Página Inicial</a></li>
+                            <li class="mr-3"><a href="#para-voce" class="text-white">Para Você</a></li>
+                            <li class="mr-3"><a href="#para-seu-negocio" class="text-white">Para Seu Negócio</a></li>
+                            <li class="mr-3"><a href="#o-banco-facil" class="text-white">O Banco Fácil</a></li>
+                            <li class="mr-3"><a href="#perguntas" class="text-white">Perguntas</a></li>
+                            <li><a href="#login" class="text-white">Login</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
